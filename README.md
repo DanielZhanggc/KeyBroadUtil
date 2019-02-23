@@ -5,7 +5,8 @@
 
 2.监听键盘弹出和收起  
 
-'KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKeyBoardPopListener() {'
+@Override
+KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKeyBoardPopListener() {
 
             @Override
             public void keyBoardShow(int i) {
