@@ -2,8 +2,9 @@
 用于解决键盘弹出收起各种布局问题  
 # 使用方法  
 1.将KeyBoardUtil/PanHideUtil/PanHideUtil复制到自己的工程之中  
-2.监听键盘弹出和收起  
 
+2.监听键盘弹出和收起  
+`<hello world>`
 KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKeyBoardPopListener() {
             @Override
             public void keyBoardShow(int i) {
@@ -15,9 +16,11 @@ KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKey
                 Toast.makeText(MainActivity.this, "键盘收起", Toast.LENGTH_SHORT).show();
             }
         });
+        
 3.解决沉浸式样式下布局被键盘遮蔽的问题  
 PanHideUtil.getInstance().attachActivity(this);
 注意：这句代码一定要在指定布局后添加，否则会包空指针异常
+
 4.LockableScrollView主要为了解决键盘在弹出时压缩上面布局的问题，如果使用ScrollView则上面布局在键盘弹出后可滑动  
 使用LockableScrollView可在代码里控制上面布局是否可滚动
 # 原理  
