@@ -19,7 +19,7 @@ KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKey
         });
         
 3.解决沉浸式样式下布局被键盘遮蔽的问题  
-PanHideUtil.getInstance().attachActivity(this);
+PanHideUtil.getInstance().attachActivity(this);  
 注意：这句代码一定要在指定布局后添加，否则会包空指针异常
 
 4.LockableScrollView主要为了解决键盘在弹出时压缩上面布局的问题，如果使用ScrollView则上面布局在键盘弹出后可滑动  
