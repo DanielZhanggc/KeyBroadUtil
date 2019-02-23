@@ -3,7 +3,8 @@
 # 使用方法  
 1.将KeyBoardUtil/PanHideUtil/PanHideUtil复制到自己的工程之中  
 2.监听键盘弹出和收起  
-KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKeyBoardPopListener() {  
+
+KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKeyBoardPopListener() {
             @Override
             public void keyBoardShow(int i) {
                 Toast.makeText(MainActivity.this, "键盘弹出", Toast.LENGTH_SHORT).show();
