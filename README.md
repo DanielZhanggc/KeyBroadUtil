@@ -1,5 +1,5 @@
 # KeyBroadUtil  
-用于解决键盘弹出收起各种布局问题  
+用于解决键盘弹出遮挡布局以及监听键盘弹出和收起等问题  
 # 使用方法  
 1.将KeyBoardUtil/PanHideUtil/PanHideUtil复制到自己的工程之中  
 
