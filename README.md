@@ -30,3 +30,4 @@ PanHideUtil.getInstance().attachActivity(this);
 # 效果展示  
 ![image](https://github.com/DanielZhanggc/KeyBroadUtil/blob/master/show.png)
 # APK下载  
+![image](https://github.com/DanielZhanggc/KeyBroadUtil/blob/master/apk_download.png)
