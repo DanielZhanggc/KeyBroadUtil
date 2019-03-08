@@ -27,4 +27,6 @@ PanHideUtil.getInstance().attachActivity(this);
 # 原理  
 其实原理很简单，在弹出键盘的时候布局会发生变化，onGlobalLayout就能够监听到布局的变化，我们可以利用布局特点来针对性的解决
 一些问题，后续会收集键盘的各种问题打包成jar包使用
-
+# 效果展示  
+![image](https://github.com/DanielZhanggc/KeyBroadUtil/blob/master/show.png)
+# APK下载  
