@@ -4,7 +4,7 @@
 1.将KeyBoardUtil/PanHideUtil/LockableScrollView复制到自己的工程之中  
 
 2.监听键盘弹出和收起  
-
+```Java
 KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKeyBoardPopListener() {
 
             @Override
@@ -17,7 +17,7 @@ KeyBoardUtil.getInstance().setOnKeyBoardPopListener(this, new KeyBoardUtil.OnKey
                 Toast.makeText(MainActivity.this, "键盘收起", Toast.LENGTH_SHORT).show();
             }
         });
-        
+```
 3.解决沉浸式样式下布局被键盘遮蔽的问题  
 PanHideUtil.getInstance().attachActivity(this);  
 注意：这句代码一定要在指定布局后添加，否则会包空指针异常
